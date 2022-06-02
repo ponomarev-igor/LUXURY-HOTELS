@@ -1,6 +1,36 @@
 
 //====================================================================================================
+.header{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.header__container{
+	display: flex;
+	min-height: 150px;
+}
+.header__logo{
 
+
+}
+.header__menu{
+	margin-left: auto;
+	padding-top: 40px;
+}
+.menu__list{
+	display: flex;
+	align-items: center;
+}
+.menu__item:not(:last-child){
+	margin-right:90px ;
+}
+.menu__link:hover{
+	text-decoration: underline;
+	transition:  all 0.9s ease;
+	color: #14274A;
+}
 
 //====================================================================================================
 
