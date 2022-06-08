@@ -128,6 +128,7 @@ import "./libs/just-validate.min.js";
 /* Подключаем файлы со своим кодом */
 import "./files/script.js";
 import "./files/burger.js"
+import "./files/ibg.js"
 import "./files/forms/form-validate.js"
 
 

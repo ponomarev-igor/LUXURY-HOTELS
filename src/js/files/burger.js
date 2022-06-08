@@ -10,7 +10,7 @@ if (iconMenu) {
     document.body.classList.toggle('_lock');
     iconMenu.classList.toggle('_active');
     menuBody.classList.toggle('_active');
-    btn.classList.toggle("active")
+    btn.classList.toggle("_active")
   });
 }
 
@@ -22,6 +22,6 @@ theLinks.forEach(link => link.addEventListener("click", ()=>{
   menuBody.classList.remove("_active");
   document.body.classList.remove('_lock');
   iconMenu.classList.remove('_active');
-  btn.classList.remove("active")
+  btn.classList.remove("_active")
 }))
 
